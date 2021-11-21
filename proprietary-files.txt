@@ -1254,7 +1254,6 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 vendor/bin/init.class_main.sh
 vendor/bin/init.crda.sh
 vendor/bin/init.mdm.sh
-vendor/bin/init.qcom.class_core.sh
 vendor/bin/init.qcom.coex.sh
 vendor/bin/init.qcom.early_boot.sh
 vendor/bin/init.qcom.efs.sync.sh
