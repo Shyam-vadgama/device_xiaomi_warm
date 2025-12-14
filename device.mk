@@ -237,6 +237,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayWarm \
     FrameworkResOverlayWarm \
+    Launcher3OverlayWarm \
     SettingsOverlayWarm \
     SystemUIOverlayWarm \
     TelephonyOverlayWarm \
