@@ -1,4 +1,4 @@
-# Unpinned blobs from warm-user 16 BP2A.250605.031.A3 OS3.0.3.0.WGVINXM release-keys
+# Unpinned blobs from warm-user 16 BP2A.250605.031.A3 16OS3.1.260717.095513936.QCPEGL.S release-keys
 
 # ACDB
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
