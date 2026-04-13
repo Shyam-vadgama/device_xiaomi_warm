@@ -39,60 +39,7 @@ prebuilt_etc {
 }
 
 sh_binary {
-    name: "init.class_main.sh",
-    src: "bin/init.class_main.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.kernel.post_boot-memory.sh",
     src: "bin/init.kernel.post_boot-memory.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-pitti_4_0.sh",
-    src: "bin/init.kernel.post_boot-pitti_4_0.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-pitti_4_1.sh",
-    src: "bin/init.kernel.post_boot-pitti_4_1.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-pitti_default_6_2.sh",
-    src: "bin/init.kernel.post_boot-pitti_default_6_2.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot-pitti.sh",
-    src: "bin/init.kernel.post_boot-pitti.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.kernel.post_boot.sh",
-    src: "bin/init.kernel.post_boot.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.early_boot.sh",
-    src: "bin/init.qcom.early_boot.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.post_boot.sh",
-    src: "bin/init.qcom.post_boot.sh",
-    vendor: true,
-}
-sh_binary {
-    name: "init.qcom.sh",
-    src: "bin/init.qcom.sh",
     vendor: true,
 }

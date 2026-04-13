@@ -195,18 +195,7 @@ PRODUCT_PACKAGES += \
     fstab.default.vendor_ramdisk
 
 PRODUCT_PACKAGES += \
-    init.class_main.sh \
     init.kernel.post_boot-memory.sh \
-    init.kernel.post_boot-pitti_4_0.sh \
-    init.kernel.post_boot-pitti_4_1.sh \
-    init.kernel.post_boot-pitti_default_6_2.sh \
-    init.kernel.post_boot-pitti.sh \
-    init.kernel.post_boot.sh \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.sh
-
-PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
