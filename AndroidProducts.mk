@@ -1,7 +1,7 @@
 #
-# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: The customOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_warm.mk
+    $(LOCAL_DIR)/custom_warm.mk

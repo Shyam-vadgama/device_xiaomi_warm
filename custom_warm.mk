@@ -7,15 +7,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common custom stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 # Inherit from warm device
 $(call inherit-product, device/xiaomi/warm/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := warm
-PRODUCT_NAME := lineage_warm
+PRODUCT_NAME := custom_warm
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 24116RNC1I
 PRODUCT_MANUFACTURER := Xiaomi
