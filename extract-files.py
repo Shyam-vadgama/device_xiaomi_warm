@@ -101,6 +101,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'\bCOMMIT\s+TRANSACTION\s*;\s*',''),
     'vendor/etc/qcril_database/upgrade/other/0008_version_update_ecc_table.sql': blob_fixup()
         .regex_replace(r'\bINSERT\s+INTO\b', r'INSERT OR IGNORE INTO'),
+    'vendor/etc/media_codecs_pitti.xml': blob_fixup()
+        .regex_replace('.*media_codecs_(google_audio|google_telephony|vendor_audio|google_c2).*\n', ''),
 }  # fmt: skip
 
 
