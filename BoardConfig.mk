@@ -39,9 +39,11 @@ AUDIO_FEATURE_ENABLED_GEF_SUPPORT := true
 AUDIO_FEATURE_ENABLED_PAL_HIDL := true
 AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 
-BOARD_SUPPORTS_OPENSOURCE_STHAL := true
-
 TARGET_USES_QCOM_MM_AUDIO := true
+
+TARGET_PROVIDES_AUDIO_HAL := true
+TARGET_PROVIDES_LIBAGM := true
+TARGET_PROVIDES_LIBAR_PAL := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := warm
@@ -193,7 +195,9 @@ BOARD_AVB_BOOT_ROLLBACK_INDEX_LOCATION := 3
 # VINTF
 DEVICE_MANIFEST_SKUS := pitti
 DEVICE_MANIFEST_PITTI_FILES := \
-    $(DEVICE_PATH)/configs/vintf/manifest_pitti.xml
+    $(DEVICE_PATH)/configs/vintf/manifest_pitti.xml \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa.xml \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa_extn.xml
 
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \

@@ -50,10 +50,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-    audio.primary.pitti \
     audio.r_submix.default \
-    audio.usb.default \
-    sound_trigger.primary.pitti
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
     audioadsprpcd
@@ -75,6 +73,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libsndcardparser \
     libvolumelistener
 
 PRODUCT_COPY_FILES += \
