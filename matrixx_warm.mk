@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/warm/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := warm
-PRODUCT_NAME := lineage_warm
+PRODUCT_NAME := matrixx_warm
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 24116RNC1I
 PRODUCT_MANUFACTURER := Xiaomi
