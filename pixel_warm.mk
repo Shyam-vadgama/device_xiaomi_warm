@@ -29,3 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PIXEL_MAINTAINER := Shyam-Vadgama
+
+# OTA 
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://raw.githubusercontent.com/Shyam-vadgama/warm_ota/main/warm.json
