@@ -1,0 +1,2 @@
+type platform_app, domain;
+app_domain(platform_app)

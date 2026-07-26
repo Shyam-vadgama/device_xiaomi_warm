@@ -1,0 +1,5 @@
+type system_suspend, domain;
+type system_suspend_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(system_suspend)
+
+hal_server_domain(system_suspend, hal_system_suspend)
