@@ -40,3 +40,6 @@ persist.vendor.ims.no_stapa=1
 remote_provisioning.enable_rkpd=true
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
 remote_provisioning.strongbox.rkp_only=true
+
+# Maintainer
+ro.lunaris.maintainer=Shyam-vadgama
