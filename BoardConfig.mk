@@ -222,3 +222,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Vendor
 include vendor/xiaomi/warm/BoardConfigVendor.mk
+
+
+#Extra-Stuff 
+SURFACE_FLINGER_BOOST := true 
