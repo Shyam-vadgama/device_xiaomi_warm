@@ -389,3 +389,6 @@ PRODUCT_PACKAGES += \
 
 # Vendor
 $(call inherit-product, vendor/xiaomi/warm/warm-vendor.mk)
+
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=1
