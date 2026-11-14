@@ -76,6 +76,7 @@ vendor/etc/models/acd/environment.eai
 vendor/etc/models/acd/event.eai
 vendor/etc/models/acd/music.eai
 vendor/etc/models/acd/speech.eai
+vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/audio.primary.pitti.so
 vendor/lib64/hw/sound_trigger.primary.pitti.so
 vendor/lib64/libVoiceSdk.so
